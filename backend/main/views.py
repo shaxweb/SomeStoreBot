@@ -16,14 +16,12 @@ import json, time
 
 pings = []
 
-
 class PingApi(APIView):
 	def get(self, request):
-		time.sleep(10)
 		res = requests.get("https://somestorebackend.onrender.com/ping/")
 		pings.append({
 		    "len": len(pings),
 		    "response": res.json()
 		})
-		return Response({"status": True})
+		return Response({"status": True, "data": pings})
 
