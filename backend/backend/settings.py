@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pdo3*4=jpl59&5d(kr19=fq50!^bt1n%t-ejc)lvl2pxo*!ldt
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://somestorebot.onrender.com",
+    "somestorebot.onrender.com",
 ]
 
 
