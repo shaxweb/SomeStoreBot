@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-pdo3*4=jpl59&5d(kr19=fq50!^bt1n%t-ejc)lvl2pxo*!ldt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "https://somestorebot.onrender.com",
+]
 
 
 # Application definition
